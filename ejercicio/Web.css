@@ -1,0 +1,106 @@
+@charset "utf-8";
+#project {
+	margin-top: 80px;
+	padding-right: 0px;
+	padding-left: 102px;
+	right: 0px;
+	margin-left: 100px;
+	background-color: #CCCCCC;
+	border-spacing: 0px 0px;
+	border: thin solid #000000;
+	margin-right: 876px;
+	padding-top: 0px;
+}
+#Name {
+	margin-left: 100px;
+	padding-left: 102px;
+	background-color: #FFFFFF;
+	border-top: thin none #000000;
+	border-bottom: thin none #000000;
+	border-right: thin solid #000000;
+	border-left: thin solid #000000;
+	margin-right: 877px;
+}
+#Problem {
+	margin-right: 392px;
+	margin-left: 100px;
+	padding-left: 65px;
+	background-color: #CCCCCC;
+	border-top: thin solid #000000;
+	border-bottom: thin solid #000000;
+	border-right: thin solid #000000;
+	border-left: thin solid #000000;
+	margin-top: -2px;
+}
+#Solution {
+	margin-right: 877px;
+	margin-left: 100px;
+	padding-left: 100px;
+	padding-right: 0px;
+	border-top: thin none #000000;
+	border-bottom: thin solid #000000;
+	border-right: thin solid #000000;
+	border-left: thin solid #000000;
+}
+#Audience {
+	padding-right: 0px;
+	margin-right: 877px;
+	margin-left: 100px;
+	padding-left: 100px;
+	background-color: #CCCCCC;
+	border-top: thin none #000000;
+	border-bottom: thin solid #000000;
+	border-right: thin solid #000000;
+	border-left: thin solid #000000;
+}
+#Prores {
+	margin-left: 366px;
+	padding-left: 73px;
+	margin-top: -20px;
+	background-color: #FFFFFF;
+	border: thin solid #000000;
+	margin-right: 392px;
+}
+#ProName {
+	margin-left: 366px;
+	background-color: #CCCCCC;
+	margin-top: -18px;
+	margin-right: 392px;
+	margin-bottom: 1px;
+	border-top: thin none #000000;
+	border-bottom: thin solid #000000;
+	border-right: thin solid #000000;
+	border-left: thin solid #000000;
+}
+#LemRes {
+	margin-left: 366px;
+	margin-top: -20px;
+	background-color: #FFFFFF;
+	border: thin solid #000000;
+	margin-right: 392px;
+}
+#ProSol {
+	margin-right: 392px;
+	margin-left: 366px;
+	background-color: #CCCCCC;
+	border-top: thin solid #000000;
+	border-bottom: thin solid #000000;
+	border-right: thin solid #000000;
+	border-left: thin solid #000000;
+	margin-top: -20px;
+}
+#ProAudience {
+	margin-right: 392px;
+	margin-left: 366px;
+	margin-top: -20px;
+	background-color: #FFFFFF;
+	border: thin solid #000000;
+}
+body h1 {
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+	text-shadow: -1px 3px 26px #666666;
+}
+body h2 {
+	margin-right: 0px;
+	padding-left: 135px;
+}

@@ -1,0 +1,6 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+button:hover, button:focus, .button:hover, .button:focus {
+    background-color: #FF0; }
