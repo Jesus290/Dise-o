@@ -1,6 +1,8 @@
 @charset "utf-8";
 body {
-  background:url(../../Imagenes/Background/BMX.jpeg);
+  background:url(../img/imgBackground/BMX.jpeg);
   background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment:fixed; 
 }/* CSS Document */
 
