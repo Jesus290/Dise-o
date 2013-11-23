@@ -5,7 +5,6 @@
 	position: relative;
 	width: 6000px;
 	height: 200px;
-	background: #000;
 }
 
 .box_skitter img {
@@ -18,7 +17,6 @@
 
 .box_skitter .container_skitter {
 	background-image: url(../img/images/bg.png);
-	background-repeat: no-repeat;
 	background-size:cover;
 	overflow: hidden;
 }
