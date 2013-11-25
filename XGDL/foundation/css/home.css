@@ -10,7 +10,7 @@ body {
 	color: #0E5719;
 }
 #links{
-	background: #000000; /*Ide noticias*/
+	 /*Ide noticias*/
 }
 .legend1{
 	background-color: #5D0B12;
@@ -23,7 +23,7 @@ label {   /* Texto */
 	color: #E8D8D9;
 }
 fieldset {
-	background-color: rgba(43,3,4,0.7);
+	background-color: rgba(43,3,4,0.8);
 	filter:  alpha(opacity=50);
    	font-size:medium;
    	font-style: normal;
