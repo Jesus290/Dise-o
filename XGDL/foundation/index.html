@@ -32,6 +32,68 @@
     });
   </script>
 
+  <script>
+  function enviar()
+  {
+  
+    var name=document.getElementById("name1").value;
+  var password=document.getElementById("password1").value;
+  
+  
+  
+  if(name == "")
+  {
+    alert("You need to write your 'Name'");
+    return;
+  }
+  if(password == "")
+  {
+    alert("You need to write your password");
+    return;
+  }
+  
+  
+  document.getElementById("miform").submit();
+  }
+  </script>
+    
+     <script>
+  function enviar1()
+  {
+  
+    var name=document.getElementById("name2").value;
+  var password=document.getElementById("password2").value;
+  var date=document.getElementById("date").value;
+  var email=document.getElementById("email").value;
+  
+  
+  
+  if(name == "")
+  {
+    alert("You need to write your 'Name'");
+    return;
+  }
+  if(password == "")
+  {
+    alert("You need to write your password");
+    return;
+  }
+  if(date == "")
+  {
+    alert("You need to write your Birthdate");
+    return;
+  }
+  if(email == "")
+  {
+    alert("You need to write your Email");
+    return;
+  }
+  
+  
+
+  document.getElementById("miform2").submit();
+  }
+  </script>
 
 </head>
 <body>
@@ -65,13 +127,27 @@
       </ul>
 
       <!-- Right Nav Section -->
+
       <ul class="right">
         <li class="divider hide-for-small"></li>
-        
+        </li>
+      <li class="divider"></li>
+      <li class="has-form">
+        <form>
+          <div class="row collapse">
+            <div class="small-8 columns">
+              <input type="text">
+            </div>
+            <div class="small-4 columns">
+              <a href="#" class="alert button">Search</a>
+            </div>
+          </div>
+        </form>
+      </li>
         </li>
         <li class="divider show-for-small"></li>
         <li class="has-form">
-          <a class="button" href="#">Login </a>
+           <a class="button" href="#" data-reveal-id="myModal">Login </a>
           
         </li>
       </ul>
@@ -94,17 +170,21 @@
         <img width="40" src="img/red/twitter.png"/>
       </a>
     </div>
-    <div class="box_skitter box_skitter_large">
-      <ul>
-        <li><a href="#cubeRandom"><img src="img/images/example/003.jpg" class="cubeRandom" /></a><div class="label_text"><p>cubeRandom</p></div></li>
-        <li><a href="#block"><img src="img/images/example/004.jpg" class="block" /></a><div class="label_text"><p>block</p></div></li>
-        <li><a href="#cubeStop"><img src="img/images/example/002.jpg" class="cubeStop" /></a><div class="label_text"><p>cubeStop</p></div></li>
-        <li><a href="#cubeRandom"><img src="img/images/example/005.jpg" class="cubeRandom" /></a><div class="label_text"><p>cubeRandom</p></div></li>
-        <li><a href="#block"><img src="img/images/example/006.jpg" class="block" /></a><div class="label_text"><p>block</p></div></li>
-        <li><a href="#cubeStop"><img src="img/images/example/007s.jpg" class="cubeStop" /></a><div class="label_text"><p>cubeStop</p></div></li>
-        <li><a href="#cubeRandom"><img src="img/images/example/008s.png" class="cubeRandom" /></a><div class="label_text"><p>cubeRandom</p></div></li>
-        <li><a href="#block"><img src="img/images/example/010.jpg" class="block" /></a><div class="label_text"><p>block</p></div></li>
-      </ul>
+    <div class="row">
+      <div class="large-12 columns">
+        <div class="box_skitter box_skitter_large">
+          <ul>
+            <li><a href="#cubeRandom"><img src="img/images/example/003.jpg" class="cubeRandom" /></a><div class="label_text"><p>cubeRandom</p></div></li>
+            <li><a href="#block"><img src="img/images/example/004.jpg" class="block" /></a><div class="label_text"><p>block</p></div></li>
+            <li><a href="#cubeStop"><img src="img/images/example/002.jpg" class="cubeStop" /></a><div class="label_text"><p>cubeStop</p></div></li>
+            <li><a href="#cubeRandom"><img src="img/images/example/005.jpg" class="cubeRandom" /></a><div class="label_text"><p>cubeRandom</p></div></li>
+            <li><a href="#block"><img src="img/images/example/006.jpg" class="block" /></a><div class="label_text"><p>block</p></div></li>
+            <li><a href="#cubeStop"><img src="img/images/example/007s.jpg" class="cubeStop" /></a><div class="label_text"><p>cubeStop</p></div></li>
+            <li><a href="#cubeRandom"><img src="img/images/example/008s.png" class="cubeRandom" /></a><div class="label_text"><p>cubeRandom</p></div></li>
+            <li><a href="#block"><img src="img/images/example/010.jpg" class="block" /></a><div class="label_text"><p>block</p></div></li>
+          </ul>
+        </div>
+      </div>
     </div>
   </div>
 
@@ -277,12 +357,54 @@ Cáiganle y conéctense. Chido a la banda de Heat Co por armar la patinada y a l
   </div>
 
 
-   <script>
+
+        <!-- LOG IN AND SIGN UP-->
+ 
+      <div id="myModal" class="reveal-modal">
+  <h2>Login</h2>
+  <p class="lead">If you already have an account enter your information</p>
+  <div class="formulario">
+  <form type="submit"  method="post" id="miform" name="miform"  />
+    <p>
+    <div class="name">User Account or Email<input type="text" name="name" id="name1" /></div>
+    <br />
+    <div class="password">Password<input type="password" name="password" id="password1" /></div>
+    <br />
+        </p>
+        <a href="#" class="alert button" onClick="enviar()">Send</a> <a href="#" class="alert button" data-reveal-id="myModal2" >Sign up</a>
+    </div>
+    </form>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="myModal2" class="reveal-modal">
+  <h2>Sign up</h2>
+  <p class="lead">Be part of the community of XGDL</p>
+  <form type="submit"  method="post" id="miform2" name="miform2"  />
+    <p>
+        <div class="name">Name<input type="text" name="name" id="name2" /></div>
+    <br />
+        <div class="date">Birthdate<input type="date" name="date" id="date" /></div>
+    <br />
+    <div class="email">User Account or Email<input type="text" name="email1" id="email" /></div>
+    <br />
+    <div class="password">Password<input type="password" name="password" id="password2" /></div>
+    <br />
+        </p>
+        <a href="#" class="alert button" onClick="enviar1()">Send</a> 
+    </div>
+    </form>
+  
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+
+
+  <script>
   document.write('<script src=' +
   ('__proto__' in {} ? 'js/vendor/zepto' : 'js/vendor/jquery') +
   '.js><\/script>')
   </script>
-  
   
   <script src="js/foundation.min.js"></script>
   
