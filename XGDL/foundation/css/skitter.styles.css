@@ -16,8 +16,6 @@
 }
 
 .box_skitter .container_skitter {
-	background-image: url(../img/images/bg.png);
-	background-size:cover;
 	overflow: hidden;
 }
 

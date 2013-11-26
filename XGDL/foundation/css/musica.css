@@ -6,3 +6,35 @@ body {
   background-attachment:fixed; 
 }/* CSS Document */
 
+.legend2 {
+	background: #000000; /*titulo del cuadro*/
+	color: #0E5719;
+}
+#links{
+	 /*Ide noticias*/
+}
+.legend1{
+	background-color: #5D0B12;
+	color: #FF2719		;
+	border-radius: 3px;
+}
+label {   /* Texto */
+	font-style: normal;
+	font-size: small;
+	color: #E8D8D9;
+}
+fieldset {
+	background-color: rgba(43,3,4,0.5);
+	filter:  alpha(opacity=50);
+   	font-size:medium;
+   	font-style: normal;
+	border:1px solid #D60000;
+	border-radius: 5px;
+}
+.legend2 {
+	background: #000000; /*titulo del cuadro*/
+	color: #D60000;
+}
+.info{
+	background: #000000;
+}
